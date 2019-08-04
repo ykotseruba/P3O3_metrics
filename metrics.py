@@ -61,7 +61,7 @@ def GSI(salmap, targmap, distmap, add_eps=False):
     R_target = np.sum(np.multiply(salmap, targmap_normalized))/np.sum(targmap_normalized)
     R_distr = np.sum(np.multiply(salmap, distmap_normalized))/np.sum(distmap_normalized)
 
-    if R_target + R_distr > 0:
+    if (R_target + R_distr) > 0:
         score = (R_target-R_distr)/(R_target + R_distr)
     else:
         score = -1
@@ -100,7 +100,6 @@ def MSR_targ(salmap, targmap, distmap, dilate=0, add_eps=False):
     if dilate > 0:
         targmap_copy = morph.dilation(targmap_copy.astype(np.uint8), morph.disk(dilate))
         distmap_copy = morph.dilation(distmap_copy.astype(np.uint8), morph.disk(dilate))
-
 
     # convert the target and distractor masks into arrays with 0 and 1 for values
     targmap_normalized = targmap_copy / 255
@@ -181,6 +180,7 @@ number of fixations does not exceed max_tries.
 :param add_eps: add a small value to the salmap to break any pixel value ties
 :returns: tries - the number of fixations needed to find the target, found - true or false
 '''
+
 
 def numfix2find(image, salmap, targmap, iorrec,
                 find_box=(1, 1),
