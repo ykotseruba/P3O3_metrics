@@ -14,14 +14,14 @@ Run `python demo.py` to see these how these scores are computed for samples from
 
 To compute saliency maps for images in P<sub>3</sub> and O<sub>3</sub> datasets:
 
-1. Download the datasets manually from [http://data.nvision2.eecs.yorku.ca/P3O3/] or using the script in the `data` folder:
+1. Download the datasets manually from <http://data.nvision2.eecs.yorku.ca/P3O3/> or using the script in the `data` folder:
 
 ```
 cd data
 sh download_data.sh
 ```
 
-2. Install SMILER. Follow instructions in the official repository [https://github.com/TsotsosLab/SMILER].
+2. Install SMILER. Follow the instructions in the official repository <https://github.com/TsotsosLab/SMILER>.
 
 3. Run the models using the `yaml` files in the `SMILER_experiments` folder (updated the paths to the P<sub>3</sub> and O<sub>3</sub> images if needed):
 
