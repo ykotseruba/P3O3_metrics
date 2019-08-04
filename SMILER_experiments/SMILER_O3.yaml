@@ -1,0 +1,48 @@
+experiment:
+  name: stimuli_O3
+  description: Run a set of saliency models on color P3 stimuli
+  input_path: data/O3/images
+  base_output_path: O3_results/
+
+runs:
+  - algorithm: BMS
+
+  - algorithm: AIM
+
+  - algorithm: CVS
+  
+  - algorithm: DVA
+  
+  - algorithm: FES
+
+  - algorithm: GBVS
+
+  - algorithm: IKN
+
+  - algorithm: IMSIG
+
+  - algorithm: LDS
+
+  - algorithm: RARE2012
+
+  - algorithm: SSR
+
+  - algorithm: SUN
+
+  - algorithm: ICF
+
+  - algorithm: DGII
+
+  - algorithm: DVAP
+
+  - algorithm: eDN
+      
+  - algorithm: MLNet
+
+  - algorithm: oSALICON
+
+  - algorithm: SalGAN
+
+  - algorithm: SAM
+    parameters:
+      network: SAM-ResNet      

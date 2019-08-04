@@ -1,0 +1,88 @@
+experiment:
+  name: stimuli_P3
+  description: Run a set of saliency models on orientation P3 stimuli
+  input_path: data/P3/orientations/images/
+  base_output_path: P3_results/orientations
+
+runs:
+  - algorithm: BMS
+    parameters:
+      center_prior: none
+
+  - algorithm: AIM
+    parameter:
+      center_prior: none
+
+  - algorithm: CVS
+    parameters:
+      center_prior: none
+  
+  - algorithm: DVA
+    parameters:
+      center_prior: none
+  
+  - algorithm: FES
+    parameters:
+      center_prior: none
+
+  - algorithm: GBVS
+    parameers:
+      center_prior: none
+
+  - algorithm: IKN
+    parameters:
+      center_prior: none
+
+  - algorithm: IMSIG
+    parameters:
+      center_prior: none
+
+  - algorithm: LDS
+    parameters:
+      center_prior: none
+
+  - algorithm: RARE2012
+    parameters:
+      center_prior: none
+
+    - algorithm: SSR
+    parameters:
+      center_prior: none
+
+  - algorithm: SUN
+    parameters:
+      center_prior: none
+
+  - algorithm: ICF
+    parameters:
+      center_prior: none
+
+  - algorithm: DGII
+    parameters:
+      center_prior: none
+
+  - algorithm: DVAP
+    parameters:
+      center_prior: none
+
+  - algorithm: eDN
+    parameters:
+      center_prior: none
+      
+  - algorithm: MLNet
+    parameters:
+      center_prior: none
+
+  - algorithm: oSALICON
+    parameters:
+      center_prior: none
+
+  - algorithm: SalGAN
+    parameters:
+      center_prior: none
+
+  - algorithm: SAM
+    parameters:
+      network: SAM-ResNet
+      center_prior: none
+      
