@@ -7,7 +7,7 @@ For the Odd-One-Out (O<sup>3</sup>) dataset we compute the ratios of maximum sal
 
 The code for these metrics is defined in `metrics.py`. 
 
-Run `python demo.py` to see these how these scores are computed for samples from P3 and O3 datasets.
+Run `python demo.py` to see these how these scores are computed for samples from P<sub>3</sub> and <sub>O3</sub> datasets.
 
 
 ### SMILER experiment files
