@@ -1,4 +1,4 @@
-### Code for metrics and SMILER experiment files used in the paper I. Kotseruba, C. Wloka, A. Rasouli, "Do Saliency Models Detect Odd-One-Out Targets? New Datasets and Evaluations", BMVC, 2019.
+### Code for metrics and SMILER experiment files used in the paper Kotseruba et al. "Do Saliency Models Detect Odd-One-Out Targets? New Datasets and Evaluations", BMVC, 2019.
 
 
 In our paper we compute global saliency index (GSI) and number of fixations to find the target (numfix2find) for stimuli in the Psychophysical Patterns (P<sup>3</sup>) dataset.
