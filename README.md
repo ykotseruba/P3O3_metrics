@@ -23,7 +23,7 @@ sh download_data.sh
 
 2. Install SMILER. Follow the instructions in the official repository <https://github.com/TsotsosLab/SMILER>.
 
-3. Run the models using the `yaml` files in the `SMILER_experiments` folder (updated the paths to the P<sub>3</sub> and O<sub>3</sub> images if needed):
+3. Run the models using the `yaml` files in the `SMILER_experiments` folder (update the paths to the P<sup>3</sup> and O<sup>3</sup> images if needed) as follows:
 
 ```
 ./smiler run -e SMILER_O3.yaml
