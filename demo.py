@@ -1,7 +1,7 @@
 """
 Code showing how to use the metrics described in the paper:
 
-I. Kotseruba, C. Wloka, A. Rasouli, "Do Saliency Models Detect Odd-One-Out Targets? New Datasets and Evaluations", BMVC, 2019.
+I. Kotseruba, C. Wloka, A. Rasouli, J.K. Tsotsos "Do Saliency Models Detect Odd-One-Out Targets? New Datasets and Evaluations", BMVC, 2019.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
