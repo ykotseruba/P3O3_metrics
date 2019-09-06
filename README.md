@@ -1,16 +1,17 @@
 ### Code for metrics and SMILER experiment files used in the paper Kotseruba et al. "Do Saliency Models Detect Odd-One-Out Targets? New Datasets and Evaluations", BMVC, 2019.
 
+### Computing metrics
 
-In our paper we compute global saliency index (GSI) and number of fixations to find the target (defined in function 'numfix2find') for stimuli in the Psychophysical Patterns (P<sup>3</sup>) dataset.
+In our paper we propose global saliency index (GSI) and number of fixations to find the target to measure the performance of the saliency algorithms on stimuli in the Psychophysical Patterns (P<sup>3</sup>) dataset.
 
-For the Odd-One-Out (O<sup>3</sup>) dataset we compute the ratios of maximum saliency values within the target and the distractors (MSR<sub>targ</sub>) and within the target and the background (MSR<sub>bg</sub>) areas.
+For the Odd-One-Out (O<sup>3</sup>) dataset we compute the ratios of maximum saliency values within the target and the distractors (MSR<sub>targ</sub>) and within the target and the background (MSR<sub>bg</sub>) areas. These metrics measure how well the algorithms are able to discriminate the target.
 
-The code for these metrics is defined in `metrics.py`. 
+The code for GSI and MSR metrics is defined in `metrics.py`. 
 
 Run `python demo.py` to see these how these scores are computed for samples from P<sub>3</sub> and O<sub>3</sub> datasets.
 
 
-### SMILER experiment files
+### Computing the saliency maps
 
 To compute saliency maps for images in P<sup>3</sup> and O<sup>3</sup> datasets:
 
