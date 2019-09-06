@@ -29,4 +29,4 @@ sh download_data.sh
 ./smiler run -e SMILER_O3.yaml
 ```
 
-Note that depending on the system running all 18 models on P<sub>3</sub> and O<sub>3</sub> datasets may take several days. It is not recommended to run several experiments concurrently.
+Note that depending on the system running all 20 models on P<sup>3</sup> and O<sup>3</sup> datasets may take several days. It is not recommended to run several experiments concurrently.
